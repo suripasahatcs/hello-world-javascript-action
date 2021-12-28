@@ -1,0 +1,12 @@
+name: 'Hello World'
+description: 'Greet someone and record the time'
+inputs:
+  who-to-greet: suripa
+  description: 'who to greet'
+  required: true
+  default: 'world'
+outputs:
+time:
+runs:
+using: 'node12'
+main: 'index.js'
